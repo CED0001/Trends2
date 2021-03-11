@@ -1,0 +1,9 @@
+============ COLORS ===========
+black: #1B2021;
+red: #9A031E;
+Ghost white: #F0EFF4;
+Light Gray: #D0D8DD;
+Blue: #06BCC1;
+============ TEXT & FONTS ===========
+normal text: Raleway [<b></b>]
+Heading: Lato [<b></b>]    background-color: #9A031E;

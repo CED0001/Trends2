@@ -1,7 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+/* =====================HEADER=================== */
+a.navbar-brand {
+    display: flex;
+    background-color: #9A031E;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar-brand img {
+    padding: 1em;
+    margin: 0;
+    width: 20%;
+    background-color: #F0EFF4;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Raleway;
+    color: #1B2021;
+    padding: 0 1em;
+    margin: 0;
+    font-size: 17px;
+    
+}
+
+header nav ul li a:hover {
+    display: inline-block;
+    padding: 0em 1em;
+    background-color: #06BCC1;
+    color: #F0EFF4;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+header ul {
+    margin: 0;
+}
+
+.loginbutton {
+    color: #1B2021;
+    padding: 5px 1.5em;
+    border-radius: 60px;
+    border: 3px solid #1B2021;
+}
+
+.loginbutton:hover {
+    color: #F0EFF4;
+    background-color: #1B2021;
+    padding: 5px 1.5em;
+    border-radius: 60px;
+}
+
+/* ========================MAIN========================= */
+main{
+    background-color: #D0D8DD;
+    
+}
+main article h1{
+    font-family: 'lato';
+    font-weight: 700;
+}
+main  article p{
+font-family: 'raleway';
+font-weight: 400;
+padding: 0em 30em 0em 0em;
+}
+main article {
+    display: inline-block;
+    padding: 20em 5em 3em;
+}
+.onze-aanbiedingen{
+    padding: 0em 20em 10em 0em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+main .details a{
+    text-decoration: none; 
+    color: #F0EFF4;
+    border: 3px solid #F0EFF4;
+    background-color: #9A031E;
+    font-family: 'lato';
+    padding: 2em 3em; 
+    border-radius: 60px;
+}
+main section img{
+    width: 20%;
+    position: absolute;
+    right:0px;
+}
+main .home{
+    display: flex;
+    display: block;
+}
+.betalings-opties{
+    padding: 5em;
+    background-color: #F0EFF4;
+}
+.card a{
+    text-decoration: none; color:#9A031E; 
+}
+
+/* ====================FOOTER=============== */
+footer{
+    height: 200px;
+    display: flex;
+    
+}
+.left{
+    width: 30%;
+    background-color:  #F0EFF4;
+    position: relative;
+    padding: 20px;
+}
+
+.left img{
+    position: absolute;
+    width: 80%;
+    display: inline-block;
+    margin:  2px auto;
+}
+.middle{
+    width: 40%;
+    background-color: #9A031E;
+}
+.right{
+   width: 30%;
+   background-color: #9A031E;
+=======
 body {
     margin: 0 auto;
 }
 
 .navbar {
     background-color: black;
+
 }
