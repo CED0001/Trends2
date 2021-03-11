@@ -11,7 +11,6 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
-    <!-- https://kyhsw.csb.app/trends2/createAccount.html -->
 
     <!-- <style>
         .bd-placeholder-img {
@@ -77,70 +76,38 @@
         }
     </style> -->
 
-    <title>Create account</title>
+    <title>Login</title>
   </head>
-
+  <!-- https://kyhsw.csb.app/trends2/login.html -->
+  <!-- deze html kan gebruikt worden als template in index om dan een login tevoorschijn te laten komen met behulp van jQuery  -->
   <body>
     <main class="form-signin">
       <form>
         <!-- Ik zou graag een gecentreede foto van business skills hebben op deze pagina maar weet even niet hoe -Cedric -->
         <!-- <img src="../Trends2/images/logo_business_skills.png" alt="" > -->
-        <h1 class="h3 mb-3 fw-normal">
-          Vul de gegevens in om een account aan te maken
-        </h1>
-        <label for="inputEmail" class="">Naam</label>
-        <input
-          type="text"
-          id="inputName"
-          class="form-control"
-          placeholder="Jeff"
-          required
-          autofocus
-        />
-
-        <label for="inputEmail" class="">Achternaam</label>
-        <input
-          type="text"
-          id="inputName"
-          class="form-control"
-          placeholder="Jefferson"
-          required
-          autofocus
-        />
-
-        <label for="inputEmail" class="">Email addres</label>
+        <h1 class="h3 mb-3 fw-normal">Log in alstublieft</h1>
+        <label for="inputEmail" class="visually-hidden">Email address</label>
         <input
           type="email"
           id="inputEmail"
           class="form-control"
-          placeholder="jeff.jefferson@jeffmail.com"
+          placeholder="Email address"
           required
           autofocus
         />
-
-        <label for="inputEmail" class="">Wachtwoord</label>
+        <label for="inputPassword" class="visually-hidden">Password</label>
         <input
           type="password"
           id="inputPassword"
           class="form-control"
-          placeholder=""
+          placeholder="Password"
           required
         />
-
-        <label for="inputEmail" class="">Confirmeer wachtwoord</label>
-        <input
-          type="password"
-          id="confirmPassword"
-          class="form-control"
-          placeholder=""
-          required
-        />
-
-        <!-- <div class="checkbox mb-3">
-                <label>
-                    <input type="checkbox" value="remember-me"> Remember me
-                </label>
-            </div> -->
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me" /> Remember me
+          </label>
+        </div>
         <button class="w-100 btn btn-lg btn-primary" type="submit">
           Sign in
         </button>
