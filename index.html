@@ -1,14 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Business-skills</title>
   </head>
   <!-- https://kyhsw.csb.app/trends2/index.html -->
@@ -36,7 +42,7 @@
     </header>
     <!-- =============================MAIN====================== -->
     <main>
-      <section class="home">
+      <section class="home sticky-top">
         <div class="bedrijf">
           <div class="bedrijfstart">
             <article class="articlebedrijf">
@@ -49,10 +55,10 @@
               </p>
             </article>
             <div class="onze-aanbiedingen">
-              <p class="details"><a href="#">Onze aanbiedingen</a></p>
+              <p class="details"><a href="#aanbiedingen">Onze aanbiedingen</a></p>
             </div>
           </div>
-          <div class="bedrijfimg">
+          <div class="bedrijfimg" class="fade-in" class="fade-out">
             <img src="./images/pexels-mentatdgt-2173508.jpg" alt="business" />
           </div>
         </div>
@@ -60,46 +66,148 @@
 
       <!-- =======================CARD BETALING SECTION =================== -->
 
-      <section class="betalings-opties">
-        <div class="card" style="width: 17rem;">
-          <div class="card2">
-            <h5 class="card-title">Subscribe to the newsletter</h5>
-            <h6 class="card-subtitle">
-              Maak een account aan en krijg om de week acces tot 1 video
-            </h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="card-link">Maak een account</a>
-            <span class="card card-end">test</span>
-          </div>
-        </div>
+      <section class="betalings-opties sticky-top"><a id="aanbiedingen"></a>
+        <h2 class="titles">Onze aanbiedingen</h2>
+        <div class="container-page">
+          <div class="container-betaling">
+            <div class="card active" style="width: 17rem;">
+              <div class="card2">
+                <h5 class="card-title">
+                  Subscribe to the newsletter
+                  <span class="badge bg-secondary">Free</span>
+                </h5>
+                <h6 class="card-subtitle">
+                  Maak een account aan en krijg om de week acces tot 1 video
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h6 class="card-subtitle">
+                  gratis
+                </h6>
+                <a href="#" class="card card-link">Maak een account</a>
+                <span class="card card-end">test</span>
+              </div>
+            </div>
 
-        <div class="card" style="width: 17rem;">
-          <div class="card2">
-            <h5 class="card-title">Subscribe to the newsletter</h5>
-            <h6 class="card-subtitle">
-              Maak een account aan en krijg om de week acces tot 1 video
-            </h6>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="card-link">Maak een account</a>
-            <span class="card card-end">test</span>
+            <div class="card active" style="width: 17rem;">
+              <div class="card2">
+                <h5 class="card-title">Betalende versie<br /><br /></h5>
+                <h6 class="card-subtitle">
+                  Maak een account aan en krijg acces tot alle leerstof
+                  materiaal
+                </h6>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <h6 class="card-subtitle">
+                  €160/ jaar
+                </h6>
+                <a href="#" class="card card-link">Word lid</a>
+                <span class="card card-end">test</span>
+              </div>
+            </div>
+          </div>
+          <!-- ===================== kolom rechts learning snacks -->
+          <div class="container-info">
+            <div class="background-info">
+              <h4>Trajecten en learning snacks</h4>
+              <p>
+                <b>Traject 1:</b> Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit, sed diam nonummy nibh euis Lorem ipsum dolor
+                sit amet, consectetuer.
+              </p>
+              <img
+                class="foto-info"
+                src="./images/pexels-karolina-grabowska-4386367.jpg"
+                alt="taxes"
+              />
+              <br /><br /><br />
+              <p>
+                <b>Traject 2:</b> Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit, sed diam nonummy nibh euis Lorem ipsum dolor
+                sit amet, consectetuer.
+              </p>
+              <img
+                class="foto-info"
+                src="./images/pexels-negative-space-34577.jpg"
+                alt="online"
+              />
+              <br /><br /><br />
+              <p class="btnn-info"><a href="#">Bekijk meer ...</a></p>
+            </div>
           </div>
         </div>
       </section>
       <!-- =========================== over ons ================== -->
 
-      <section class="over-ons"></section>
-
-      <section class="faq"></section>
+      <section class="over-ons sticky-top">
+        <h2 class="titles">Over ons</h2>
+        <section class="card5" data-aos="fade-right">
+            <img src="./images/fauxel.jpg" title="Picture: MONA SALONS" alt="Picture">
+            <div>
+              <h3>Titel 1</h3><br>
+               <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
+                <h4>WIE</h4>
+              <p>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut natus eum ullam, aliquid magnam eaque, culpa quis quas nisi officiis cupiditate deserunt, labore fugit repudiandae possimus molestias consequuntur corrupti mollitia.
+              </p>
+                <h4>WAT</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut natus eum ullam, aliquid magnam eaque, culpa quis quas nisi officiis cupiditate deserunt, labore fugit repudiandae possimus molestias consequuntur corrupti mollitia.<br><br>
+                </p>
+            </div>
+          </section>
+      </section>
+      <section class="over-ons sticky-top">
+          <section class="card5" data-aos="fade-left">
+              <img src="./images/guy.jpg" title="Picture: MONIQUE STAM" alt="Picture" />
+              <div>
+                <h3>Titel 2</h3><br>
+                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quae beatae praesentium animi voluptatibus corrupti officiis nisi cumque ut similique sed, in, dolor blanditiis suscipit atque? Vel asperiores exercitationem repudiandae?</span>
+                  <h4>WAAROM</h4>
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
+                </p>
+                  <h4>HOE</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
+                    <br><br>
+      
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
+      
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
+                  </p>
+              </div>
+            </section>
+      </section>
+      <!-- ================= veel gestelde vragen ============= -->
+      <section class="faq-section sticky-top">
+        <h2 class="titles">Veel gestelde vragen</h2>
+        <h3>Vraag 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
+      <h3>Vraag 2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
+      <h3>Vraag 3</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
+      <h3>Vraag 4</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
+       <div class="meer-button"> <a href="#">Meer vragen</a></div>
+    </section>
     </main>
 
     <!--======================Footer======================-->
-
+    <iframe
+      class="lokatie"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10073.969002280013!2d4.5139758!3d50.8590861!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ff7e31801ae36e6!2sMinex!5e0!3m2!1snl!2sbe!4v1615478350064!5m2!1snl!2sbe"
+      width="600"
+      height="450"
+      style="border: 0;"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
     <footer>
       <div class="left">
         <div class="logo-div">
@@ -108,291 +216,77 @@
 
         <div class="contactgegevens">
           <address>
-            Adres: Zennestraat 22, 1000 Brussel <br />
-            Email:<a href="mailto:rogierclarisse@outlook.com">
-              rogierclarisse@outlook.com</a
-            >
+            Adres: Mechelsesteenweg 131, 1933 Zaventem
             <br />
-            Tel: <a href="tel:+32 50 33 22 11"> 050 11 22 33</a> <br />
+            Email:<a href="mailto:info@minex.be"> info@minex.be</a>
+            <br />
+            Tel: <a href="tel:+32 2 731 96 65"> 02 731 96 65 </a> <br />
           </address>
         </div>
 
-        <div class="socialMedia-buttons">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-instagram"></a>
+        <div class="socialMedia-buttons" class="footer-share">
+          <a
+            href="#"
+            class="fa fa-facebook"
+            title="Facebook"
+            target="_blank"
+          ></a>
+          <a href="#" class="fa fa-twitter" title="Twitter" target="_blank"></a>
+          <a
+            href="#"
+            class="fa fa-instagram"
+            title="Instagram"
+            target="_blank"
+          ></a>
+          <a href="#" class="fa fa-envelope" title="E-mail"></a>
         </div>
       </div>
-
       <div class="right">
         <h3>Nieuwbrief</h3>
         <p>
           Ik wil graag op de hoogte gehouden worden van acties en trainingen
         </p>
+        </div>
       </div>
     </footer>
 
     <script src="js.js"></script>
-</body>
+  </body>
 
-
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-  <meta name="generator" content="Hugo 0.80.0">
-  <title>Carousel Template · Bootstrap v5.0</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-
-
-  <!-- Bootstrap core CSS -->
-  <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-  </style>
-
-
-  <!-- Custom styles for this template -->
-  <link href="carousel.css" rel="stylesheet">
-</head>
-
-<body>
-
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <!--====================== Templates ======================-->
+  <template>
+    <main class="form-signin">
+      <form>
+        <!-- Ik zou graag een gecentreede foto van business skills hebben op deze pagina maar weet even niet hoe -Cedric -->
+        <!-- <img src="../Trends2/images/logo_business_skills.png" alt="" > -->
+        <h1 class="h3 mb-3 fw-normal">Log in alstublieft</h1>
+        <label for="inputEmail" class="visually-hidden">Email address</label>
+        <input
+          type="email"
+          id="inputEmail"
+          class="form-control"
+          placeholder="Email address"
+          required
+          autofocus
+        />
+        <label for="inputPassword" class="visually-hidden">Password</label>
+        <input
+          type="password"
+          id="inputPassword"
+          class="form-control"
+          placeholder="Password"
+          required
+        />
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me" /> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign in
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <main>
-
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" /></svg>
-
-          <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p>Some representative placeholder content for the first slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" /></svg>
-
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Some representative placeholder content for the second slide of the carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#777" /></svg>
-
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>Some representative placeholder content for the third slide of this carousel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-
-    <!-- Marketing messaging and featurettes
-  ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first
-            column.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.
-          </p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-          </svg>
-
-          <h2>Heading</h2>
-          <p>And lastly this, the third column of representative placeholder content.</p>
-          <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span>
-          </h2>
-          <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
-            here.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this
-            layout would work with some actual real-world content in place.</p>
-        </div>
-        <div class="col-md-5 order-md-1">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really
-            intended to be actually read, simply here to give you a better view of what this would look like with some
-            actual content. Your content.</p>
-        </div>
-        <div class="col-md-5">
-          <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
-            preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-          </svg>
-
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-    </div><!-- /.container -->
-
-
-    <!-- FOOTER -->
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-    </footer>
-  </main>
-
-
-  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-
-</body>
-
-
+        <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p> -->
+      </form>
+    </main>
+  </template>
 </html>
