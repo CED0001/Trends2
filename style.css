@@ -187,29 +187,40 @@ main .home img:hover {
 .container-betaling {
   width: 50%;
   display: flex;
+  padding-top: 3em;
 }
 
 .container-page {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
 }
 
 .betalings-opties {
   height: 100vh;
-  padding: 0 5em;
+  padding: 5em 5em;
   background-color: #f0eff4;
 }
-.betalings-opties div {
+.betalings-opties div .card {
   text-align: center;
-  height: 350px;
   background-color: #f0eff4;
 }
 
-.active:hover {
+.active1:hover {
   transform: scale(1.2);
 }
+
 div.card2 {
-  height: 550px;
+  border-radius: 0;
+}
+
+.card-end {
+  background-color: #1b2021;
+  padding: 2em 0;
+  color: #1b2021;
+  border-radius: 0;
+  margin: 0;
 }
 
 span.badge.bg-secondary {
@@ -221,6 +232,7 @@ div.card {
   filter: drop-shadow(1px 1px 20px gray);
   margin: 5em 2em;
   border: none;
+  height: 410px;
 }
 
 h5.card-title {
@@ -268,28 +280,24 @@ a.card-link:hover {
   background-color: #9a031e;
 }
 
-span.card-end {
-  background-color: #1b2021;
-  padding: 1em 2em;
-  border-radius: 0px;
-  margin-top: 2em;
-}
-
-span.card.card-end {
-  margin: 0;
-}
 /* =======================extra info kolom rechts==================== */
 .container-info {
-  /* padding: 3em 5em; */
-  width: 40%;
+  padding: 3em 5em;
+  width: 80%;
 }
 
 div.background-info {
-  height: 75vh;
+  max-height: 100%;
   padding: 3em 1em;
-  background-color: #d0d8dd;
+  background-color: #f0eff4;
   border-radius: 60px;
   box-shadow: 1px 4px 10px gray;
+  text-align: center;
+}
+
+#fas2 {
+  padding-bottom: 1em;
+  color: #9a031e;
 }
 
 .container-info h4 {
@@ -302,7 +310,7 @@ div.background-info {
 .container-info p {
   font-family: Raleway;
   font-weight: 400;
-  padding-bottom: 1em;
+  padding: 0 1em 1em 1em;
 }
 
 .container-info a {
@@ -315,6 +323,17 @@ div.background-info {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.split-info {
+  display: flex;
+}
+
+.align-info {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+
 .container-info a:hover {
   color: #f0eff4;
   border: 3px solid #9a031e;
@@ -323,7 +342,7 @@ div.background-info {
 .foto-info {
   border-radius: 10px;
   margin: 0 auto;
-  width: 25%;
+  width: 70%;
   object-fit: cover;
   border: 3px solid #9a031e;
 }
@@ -517,11 +536,6 @@ a.fa:hover {
   border: 2px solid #9a031e;
 }
 
-/* MIDDENSTUK */
-.middle {
-  background-color: #9a031e;
-}
-
 /* social media buttons */
 
 .right {
@@ -529,4 +543,249 @@ a.fa:hover {
   text-align: center;
   background-color: #9a031e;
   color: #f0eff4;
+  display: flex;
+  flex-direction: row;
+}
+
+small {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+
+.inschrijf-button {
+  text-decoration: none;
+  color: #9a031e;
+  border: 1px solid #9a031e;
+  background-color: #f0eff4;
+  font-family: "lato";
+  font-weight: 700;
+  padding: 0.5em 1em;
+  border-radius: 60px;
+  text-transform: uppercase;
+}
+.inschrijf-button:hover {
+  color: #f0eff4;
+  border: 1px solid #9a031e;
+  background-color: #06bcc1;
+}
+/* nav footer right */
+
+.navi-fter ul li {
+  list-style: none;
+  padding-bottom: 0.5em;
+}
+
+.navi-fter ul {
+  padding: 0;
+}
+
+.navi-fter a {
+  text-decoration: none;
+  color: #f0eff4;
+}
+
+.navi-fter a:hover {
+  background-color: #06bcc1;
+  color: #f0eff4;
+  padding: 0.25em 1em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+div.right-nws {
+  width: 45%;
+  padding: 3em 0;
+  border-left: 2px solid #f0eff4;
+  /* border-right: 1px solid #f0eff4; */
+}
+
+.right-nws p {
+  margin: 0 auto;
+  width: 35%;
+}
+
+div.right-link {
+  background-color: #1b2021;
+  width: 30%;
+  padding: 4em 0;
+}
+
+/* ================================= trajecten.html =================== */
+div.trajecten {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+div.trajectenstart {
+  width: 60%;
+  height: 100vh;
+}
+
+div.trajectenimg {
+  width: 40%;
+  height: 100%;
+}
+
+.div-trajecten {
+  display: inline-block;
+  margin: 0 5rem;
+}
+.div-trajecten h1 {
+  padding: 2em 0 0.5em 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+}
+
+.div-trajecten h2 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 2em;
+  margin: 1em 0 0 0;
+}
+.div-trajecten p {
+  font-family: Raleway;
+  font-weight: 400;
+  width: 80%;
+  padding: 1em 0;
+}
+
+/* .extra {
+  height: 100vh;
+  background-color: black;
+} */
+
+.div-trajecten a {
+  text-decoration: none;
+  color: #9a031e;
+  border: 2px solid #9a031e;
+  background-color: #f0eff4;
+  font-family: "lato";
+  font-weight: 700;
+  padding: 0.25em 0.75em;
+  border-radius: 60px;
+  text-transform: uppercase;
+}
+
+.div-trajecten a:hover {
+  color: #f0eff4;
+  border: 1px solid #9a031e;
+  background-color: #9a031e;
+}
+
+.trajecten-home img {
+  border-left: 0.5em solid #9a031e;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+main .trajecten-home {
+  /* background-color: #d0d8dd; */
+  background-image: linear-gradient(180deg, #d0d8dd, #f0eff4);
+}
+
+main .trajecten-home img:hover {
+  filter: grayscale(100%);
+}
+
+/* ================ TRAJECT 1 - TRAJECT1CURCUS - learningSnack1.html */
+.traject {
+  padding: 5em 8em;
+  height: 100%;
+  background-color: #d0d8dd;
+}
+
+.traject h3 {
+  font-family: Lato;
+  font-weight: 700;
+  padding: 1em 1em;
+  font-size: 2em;
+}
+
+.traject nav ul li {
+  background-color: #f0eff4;
+  padding: 2em 1em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.shadow-traject {
+  padding: 2em;
+  filter: drop-shadow(1px 1px 20px gray);
+}
+
+.shadow-traject:hover {
+  transform: scale(1.1);
+}
+
+.traject nav a {
+  font-size: 21px;
+  font-weight: 400;
+  font-family: Raleway;
+  text-decoration: none;
+  color: #1b2021;
+  border-bottom: 1px solid #1b2021;
+}
+
+.traject nav a:hover {
+  color: #06bcc1;
+  border-bottom: 1px solid #06bcc1;
+}
+.traject nav ul {
+  list-style: none;
+}
+*/ .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.learning-snack {
+  height: 100vh;
+  background-color: #d0d8dd;
+  padding: 3em 0em 2em 4em;
+}
+
+.learning-snack h1 {
+  font-family: lato;
+  font-weight: 700;
+}
+.learning-snack p {
+  font-family: Raleway;
+  font-weight: 400;
 }
