@@ -9,7 +9,8 @@ body {
   scroll-behavior: smooth;
   margin: 0 auto;
   padding: 0;
-  overflow-x: hidden; /* horizontale scrollbalk vermijden voor menu dat buiten beeld staat */
+  overflow-x: hidden;
+  /* horizontale scrollbalk vermijden voor menu dat buiten beeld staat */
   transition: all 500ms ease;
 }
 
@@ -39,6 +40,7 @@ header .navbar-brand img {
   width: 10em;
   background-color: #f0eff4;
 }
+
 header .navbar-brand img:hover {
   filter: grayscale(100%);
 }
@@ -113,6 +115,7 @@ div.bedrijf {
   display: flex;
   justify-content: center;
 }
+
 div.bedrijfstart {
   width: 60%;
   height: 100vh;
@@ -122,11 +125,13 @@ div.bedrijfimg {
   width: 40%;
   height: 100%;
 }
+
 .articlebedrijf h1 {
   font-family: Lato;
   font-weight: 700;
   font-size: 5em;
 }
+
 .articlebedrijf p {
   font-family: Raleway;
   font-weight: 400;
@@ -174,6 +179,7 @@ main .details a:hover {
   height: 100vh;
   object-fit: cover;
 }
+
 main .home {
   /* background-color: #d0d8dd; */
   background-image: linear-gradient(180deg, #d0d8dd, #f0eff4);
@@ -202,6 +208,7 @@ main .home img:hover {
   padding: 5em 5em;
   background-color: #f0eff4;
 }
+
 .betalings-opties div .card {
   text-align: center;
   background-color: #f0eff4;
@@ -251,6 +258,7 @@ h5.card-title {
   padding: 1em 1em;
   color: #1b2021;
 }
+
 .card-text {
   background-color: #f0eff4;
   padding: 1em 1em;
@@ -260,6 +268,7 @@ h5.card-title {
 .card-link {
   background-color: #f0eff4;
 }
+
 a.card-link {
   text-decoration: none;
   color: #9a031e;
@@ -339,6 +348,7 @@ div.background-info {
   border: 3px solid #9a031e;
   background-color: #9a031e;
 }
+
 .foto-info {
   border-radius: 10px;
   margin: 0 auto;
@@ -350,6 +360,7 @@ div.background-info {
 .foto-info:hover {
   filter: grayscale(100%);
 }
+
 /* ================================ section over ons ========================== */
 
 section.over-ons {
@@ -404,7 +415,7 @@ section.over-ons {
   filter: grayscale(100%);
 }
 
-.card5 > div {
+.card5>div {
   padding: 4em 2em;
 }
 
@@ -419,16 +430,19 @@ section.faq-section {
   height: 100vh;
   color: #1b2021;
 }
+
 section.faq-section h2 {
   font-family: Lato;
   font-weight: 700;
 }
+
 section.faq-section h3 {
   color: #1b2021;
   font-family: Lato;
   font-weight: 500;
   padding: 0.5em 0em 0.5em 5em;
 }
+
 section.faq-section p {
   padding: 0.5em 0em 0.5em 8.5em;
   color: #1b2021;
@@ -436,6 +450,7 @@ section.faq-section p {
   font-weight: 400;
   width: 80%;
 }
+
 section.faq-section a {
   text-decoration: none;
   color: #f0eff4;
@@ -446,14 +461,17 @@ section.faq-section a {
   text-transform: uppercase;
   font-weight: 700;
 }
+
 section.faq-section a:hover {
   color: #f0eff4;
   border: 3px solid #f0eff4;
   background-color: #06bcc1;
 }
+
 section.faq-section .meer-button {
   padding: 3em 0em 0em 8.5em;
 }
+
 /* ====================FOOTER=============== */
 .lokatie {
   border: none;
@@ -466,6 +484,7 @@ footer {
   display: flex;
   font-family: Raleway;
 }
+
 /* LEFT PART */
 
 .left {
@@ -477,6 +496,7 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 }
+
 .logo-div {
   width: 100%;
   position: relative;
@@ -518,6 +538,7 @@ a.fa {
   justify-content: space-around;
   margin-top: 0;
 }
+
 .socialMedia-buttons a {
   background: #1b2021 none repeat scroll 0 0;
   border-radius: 50%;
@@ -566,11 +587,13 @@ small {
   border-radius: 60px;
   text-transform: uppercase;
 }
+
 .inschrijf-button:hover {
   color: #f0eff4;
   border: 1px solid #9a031e;
   background-color: #06bcc1;
 }
+
 /* nav footer right */
 
 .navi-fter ul li {
@@ -619,6 +642,7 @@ div.trajecten {
   display: flex;
   justify-content: center;
 }
+
 div.trajectenstart {
   width: 60%;
   height: 100vh;
@@ -633,6 +657,7 @@ div.trajectenimg {
   display: inline-block;
   margin: 0 5rem;
 }
+
 .div-trajecten h1 {
   padding: 2em 0 0.5em 0;
   font-family: Lato;
@@ -647,6 +672,7 @@ div.trajectenimg {
   font-size: 2em;
   margin: 1em 0 0 0;
 }
+
 .div-trajecten p {
   font-family: Raleway;
   font-weight: 400;
@@ -683,6 +709,7 @@ div.trajectenimg {
   height: 100vh;
   object-fit: cover;
 }
+
 main .trajecten-home {
   /* background-color: #d0d8dd; */
   background-image: linear-gradient(180deg, #d0d8dd, #f0eff4);
@@ -696,7 +723,7 @@ main .trajecten-home img:hover {
 .traject {
   padding: 5em 8em;
   height: 100%;
-  background-color: #d0d8dd;
+  background-color: #f0eff4;
 }
 
 .traject h3 {
@@ -704,6 +731,7 @@ main .trajecten-home img:hover {
   font-weight: 700;
   padding: 1em 1em;
   font-size: 2em;
+  color: #1b2021;
 }
 
 .traject nav ul li {
@@ -718,11 +746,17 @@ main .trajecten-home img:hover {
   filter: drop-shadow(1px 1px 20px gray);
 }
 
-.shadow-traject:hover {
+.shadow-traject li:hover {
+  background-color: #9a031e;
   transform: scale(1.1);
 }
 
+/* .shadow-traject:hover {
+  transform: scale(1.1);
+} */
+
 .traject nav a {
+  letter-spacing: 1px;
   font-size: 21px;
   font-weight: 400;
   font-family: Raleway;
@@ -732,50 +766,17 @@ main .trajecten-home img:hover {
 }
 
 .traject nav a:hover {
-  color: #06bcc1;
-  border-bottom: 1px solid #06bcc1;
+  color: #f0eff4;
 }
+
 .traject nav ul {
   list-style: none;
 }
-*/ .accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
 
-.active,
-.accordion:hover {
-  background-color: #ccc;
-}
+/* ============= learning snacks ================== */
 
-.accordion:after {
-  content: "\002B";
-  color: #777;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-.active:after {
-  content: "\2212";
-}
-
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
 .learning-snack {
+  display: flex;
   height: 100vh;
   background-color: #d0d8dd;
   padding: 3em 0em 2em 4em;
@@ -785,7 +786,47 @@ main .trajecten-home img:hover {
   font-family: lato;
   font-weight: 700;
 }
+
 .learning-snack p {
   font-family: Raleway;
   font-weight: 400;
+}
+
+.info-learningsnack {
+  width: 80%;
+}
+
+.next-learninsnack {
+  width: 20%;
+
+}
+
+.next-learninsnack ul {
+  list-style: none;
+}
+
+.next-learninsnack ul a {
+  text-decoration: none;
+  color: #1b2021;
+  font-weight: 400;
+  font-style: Raleway;
+  border-bottom: 1px solid #1b2021;
+}
+
+.next-learninsnack ul li {
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+.next-learninsnack ul a:hover {
+  color: #9a031e;
+  border-bottom: 1px solid #9a031e;
+}
+
+.info-learningsnack img {
+  padding-top: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
