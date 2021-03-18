@@ -15,7 +15,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Business-skills</title>
+    <script
+      src="https://kit.fontawesome.com/798881a11a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Homepage · Business Skills</title>
   </head>
   <!-- https://kyhsw.csb.app/trends2/index.html -->
   <body>
@@ -26,16 +30,17 @@
           src="./images/logo_business_skills.png"
           alt="logo"
           class="d-inline-block align-top"
+          title="Klik voor naar de homepage te gaan"
         />
       </a>
       <nav class="navbar navbar-brand container-fluid justify-content-end">
         <div>
           <ul>
-            <li><a href="#">trajecten</a></li>
+            <li><a href="./trajecten.html">trajecten</a></li>
             <li><a href="#">contact</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">over ons</a></li>
-            <li><a href="#" class="loginbutton">Login</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="#overons">over ons</a></li>
+            <li><a href="./login.html" class="loginbutton">Login</a></li>
           </ul>
         </div>
       </nav>
@@ -55,22 +60,29 @@
               </p>
             </article>
             <div class="onze-aanbiedingen">
-              <p class="details"><a href="#aanbiedingen">Onze aanbiedingen</a></p>
+              <p class="details">
+                <a href="#aanbiedingen">Onze aanbiedingen</a>
+              </p>
             </div>
           </div>
           <div class="bedrijfimg" class="fade-in" class="fade-out">
-            <img src="./images/pexels-mentatdgt-2173508.jpg" alt="business" />
+            <img
+              src="./images/pexels-mentatdgt-2173508.jpg"
+              alt="business"
+              title="Image bedrijf"
+            />
           </div>
         </div>
       </section>
 
       <!-- =======================CARD BETALING SECTION =================== -->
 
-      <section class="betalings-opties sticky-top"><a id="aanbiedingen"></a>
-        <h2 class="titles">Onze aanbiedingen</h2>
+      <section id="aanbiedingen" class="betalings-opties sticky-top">
+        <!-- <a id="aanbiedingen"></a> -->
         <div class="container-page">
+          <!-- <h2 class="titles">Onze aanbiedingen</h2> -->
           <div class="container-betaling">
-            <div class="card active" style="width: 17rem;">
+            <div class="card active1" style="width: 17rem;">
               <div class="card2">
                 <h5 class="card-title">
                   Subscribe to the newsletter
@@ -86,12 +98,14 @@
                 <h6 class="card-subtitle">
                   gratis
                 </h6>
-                <a href="#" class="card card-link">Maak een account</a>
-                <span class="card card-end">test</span>
+                <a href="./createAccount.html" class="card card-link"
+                  >Maak een account</a
+                >
+                <p class="card-end"></p>
               </div>
             </div>
 
-            <div class="card active" style="width: 17rem;">
+            <div class="card active1" style="width: 17rem;">
               <div class="card2">
                 <h5 class="card-title">Betalende versie<br /><br /></h5>
                 <h6 class="card-subtitle">
@@ -105,97 +119,166 @@
                 <h6 class="card-subtitle">
                   €160/ jaar
                 </h6>
-                <a href="#" class="card card-link">Word lid</a>
-                <span class="card card-end">test</span>
+                <a href="./createAccount.html" class="card card-link"
+                  >Word lid</a
+                >
+                <p class="card-end"></p>
               </div>
             </div>
           </div>
-          <!-- ===================== kolom rechts learning snacks -->
+          <!-- ===================== kolom rechts learning snacks=============== -->
           <div class="container-info">
             <div class="background-info">
               <h4>Trajecten en learning snacks</h4>
-              <p>
-                <b>Traject 1:</b> Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit, sed diam nonummy nibh euis Lorem ipsum dolor
-                sit amet, consectetuer.
+              <div class="split-info">
+                <div class="align-info">
+                  <p>
+                    <b>Traject 1:</b> Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh euis Lorem ipsum
+                    dolor sit amet, consectetuer.
+                  </p>
+                  <i id="fas2" class="fas fa-hand-holding-usd fa-2x"></i>
+                  <img
+                    class="foto-info"
+                    src="./images/pexels-karolina-grabowska-4386367.jpg"
+                    alt="taxes"
+                  />
+                  <br /><br /><br />
+                </div>
+                <div class="align-info">
+                  <p>
+                    <b>Traject 2:</b> Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh euis Lorem ipsum
+                    dolor sit amet, consectetuer.
+                  </p>
+                  <i id="fas2" class="fas fa-chart-line fa-2x"></i>
+                  <img class="foto-info" src="./images/card.jpg" alt="online" />
+                  <br /><br /><br />
+                </div>
+                <div class="align-info">
+                  <p>
+                    <b>Traject 3:</b> Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit, sed diam nonummy nibh euis Lorem ipsum
+                    dolor sit amet, consectetuer.
+                  </p>
+                  <i id="fas2" class="fas fa-percent fa-2x"></i>
+                  <img
+                    class="foto-info"
+                    src="./images/percentage.jpg"
+                    alt="online"
+                  />
+                  <br /><br /><br />
+                </div>
+              </div>
+              <p class="btnn-info">
+                <a href="trajecten.html">Bekijk meer ...</a>
               </p>
-              <img
-                class="foto-info"
-                src="./images/pexels-karolina-grabowska-4386367.jpg"
-                alt="taxes"
-              />
-              <br /><br /><br />
-              <p>
-                <b>Traject 2:</b> Lorem ipsum dolor sit amet, consectetuer
-                adipiscing elit, sed diam nonummy nibh euis Lorem ipsum dolor
-                sit amet, consectetuer.
-              </p>
-              <img
-                class="foto-info"
-                src="./images/pexels-negative-space-34577.jpg"
-                alt="online"
-              />
-              <br /><br /><br />
-              <p class="btnn-info"><a href="#">Bekijk meer ...</a></p>
             </div>
           </div>
         </div>
       </section>
       <!-- =========================== over ons ================== -->
 
-      <section class="over-ons sticky-top">
+      <section id="overons" class="over-ons sticky-top">
         <h2 class="titles">Over ons</h2>
         <section class="card5" data-aos="fade-right">
-            <img src="./images/fauxel.jpg" title="Picture: MONA SALONS" alt="Picture">
-            <div>
-              <h3>Titel 1</h3><br>
-               <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                <h4>WIE</h4>
-              <p>
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut natus eum ullam, aliquid magnam eaque, culpa quis quas nisi officiis cupiditate deserunt, labore fugit repudiandae possimus molestias consequuntur corrupti mollitia.
-              </p>
-                <h4>WAT</h4>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut natus eum ullam, aliquid magnam eaque, culpa quis quas nisi officiis cupiditate deserunt, labore fugit repudiandae possimus molestias consequuntur corrupti mollitia.<br><br>
-                </p>
-            </div>
-          </section>
+          <img
+            src="./images/fauxel.jpg"
+            title="Picture: MONA SALONS"
+            alt="Picture"
+          />
+          <div>
+            <h3>Titel 1</h3>
+            <br />
+            <span
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span
+            >
+            <h4>WIE</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+              natus eum ullam, aliquid magnam eaque, culpa quis quas nisi
+              officiis cupiditate deserunt, labore fugit repudiandae possimus
+              molestias consequuntur corrupti mollitia.
+            </p>
+            <h4>WAT</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
+              natus eum ullam, aliquid magnam eaque, culpa quis quas nisi
+              officiis cupiditate deserunt, labore fugit repudiandae possimus
+              molestias consequuntur corrupti mollitia.<br /><br />
+            </p>
+          </div>
+        </section>
       </section>
       <section class="over-ons sticky-top">
-          <section class="card5" data-aos="fade-left">
-              <img src="./images/guy.jpg" title="Picture: MONIQUE STAM" alt="Picture" />
-              <div>
-                <h3>Titel 2</h3><br>
-                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quae beatae praesentium animi voluptatibus corrupti officiis nisi cumque ut similique sed, in, dolor blanditiis suscipit atque? Vel asperiores exercitationem repudiandae?</span>
-                  <h4>WAAROM</h4>
-                <p>
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
-                </p>
-                  <h4>HOE</h4>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
-                    <br><br>
-      
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
-      
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea distinctio accusantium excepturi cupiditate harum nihil molestias nobis est quae assumenda sapiente, cum labore, omnis possimus obcaecati laborum eos reprehenderit!
-                  </p>
-              </div>
-            </section>
+        <section class="card5" data-aos="fade-left">
+          <img
+            src="./images/guy.jpg"
+            title="Picture: MONIQUE STAM"
+            alt="Picture"
+          />
+          <div>
+            <h3>Titel 2</h3>
+            <br />
+            <span
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem quae beatae praesentium animi voluptatibus corrupti
+            </span>
+            <h4>WAAROM</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea
+              distinctio accusantium excepturi cupiditate harum nihil molestias
+            </p>
+            <h4>HOE</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea
+              distinctio accusantium excepturi cupiditate harum nihil molestias
+              nobis est quae assumenda sapiente, cum labore, omnis possimus
+              obcaecati laborum eos reprehenderit!
+              <br /><br />
+
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ea
+              distinctio accusantium excepturi cupiditate harum nihil molestias
+              nobis est quae assumenda sapiente, cum labore, omnis possimus
+              obcaecati laborum eos reprehenderit! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Sed ea distinctio accusantium
+            </p>
+          </div>
+        </section>
       </section>
       <!-- ================= veel gestelde vragen ============= -->
       <section class="faq-section sticky-top">
         <h2 class="titles">Veel gestelde vragen</h2>
         <h3>Vraag 1</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
-      <h3>Vraag 2</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
-      <h3>Vraag 3</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
-      <h3>Vraag 4</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt cupiditate quia quasi sit, rem sunt praesentium quisquam exercitationem iste maxime.</p>
-       <div class="meer-button"> <a href="#">Meer vragen</a></div>
-    </section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt
+          cupiditate quia quasi sit, rem sunt praesentium quisquam
+          exercitationem iste maxime.
+        </p>
+        <h3>Vraag 2</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt
+          cupiditate quia quasi sit, rem sunt praesentium quisquam
+          exercitationem iste maxime.
+        </p>
+        <h3>Vraag 3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt
+          cupiditate quia quasi sit, rem sunt praesentium quisquam
+          exercitationem iste maxime.
+        </p>
+        <h3>Vraag 4</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+          hic aspernatur eius! Fuga maiores eum minus architecto quis deserunt
+          cupiditate quia quasi sit, rem sunt praesentium quisquam
+          exercitationem iste maxime.
+        </p>
+        <div class="meer-button"><a href="./faq.html">Meer vragen</a></div>
+      </section>
     </main>
 
     <!--======================Footer======================-->
@@ -242,15 +325,31 @@
         </div>
       </div>
       <div class="right">
-        <h3>Nieuwbrief</h3>
-        <p>
-          Ik wil graag op de hoogte gehouden worden van acties en trainingen
-        </p>
+        <div class="right-link">
+          <nav class="navi-fter">
+            <ul>
+              <li><a href="#">test</a></li>
+              <li><a href="#">test2</a></li>
+              <li><a href="#">test3</a></li>
+              <li><a href="./trajecten.html">trajecten</a></li>
+              <li><a href="#">test4</a></li>
+            </ul>
+          </nav>
         </div>
+        <div class="right-nws">
+          <h3>Nieuwsbrief</h3>
+          <p>
+            Ik wil graag op de hoogte gehouden worden van acties en trainingen
+          </p>
+          <br />
+          <a class="inschrijf-button" href="./createAccount.html"
+            >inschrijven</a
+          >
+        </div>
+        <small>&#169; Copyright, 2021 - Business Skills</small>
       </div>
     </footer>
-
-    <script src="js.js"></script>
+    <script src="./js.js"></script>
   </body>
 
   <!--====================== Templates ======================-->
