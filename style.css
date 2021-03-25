@@ -1,0 +1,850 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  padding: 0;
+  overflow-x: hidden;
+  /* horizontale scrollbalk vermijden voor menu dat buiten beeld staat */
+  transition: all 500ms ease;
+}
+
+/* =====================HEADER=================== */
+
+nav.navbar-brand {
+  display: flex;
+  background-color: #9a031e;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.navbar-brand {
+  background-color: #f0eff4;
+  padding: 0;
+  margin: 0;
+}
+
+header .navbar-brand img {
+  padding: 1em;
+  margin: 0;
+  width: 10em;
+  background-color: #f0eff4;
+}
+
+header .navbar-brand img:hover {
+  filter: grayscale(100%);
+}
+
+header nav {
+  background-color: #f0eff4;
+}
+
+header nav ul li {
+  padding-right: 2em;
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  text-align: center;
+  font-family: Raleway;
+  color: #f0eff4;
+  padding: 0 1em;
+  margin: 0;
+  font-size: 17px;
+}
+
+header nav ul li a:hover {
+  margin: 0;
+  display: inline-block;
+  padding: 0 1em;
+  background-color: #06bcc1;
+  color: #f0eff4;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+header ul {
+  margin: 0;
+}
+
+.loginbutton {
+  margin: 0;
+  color: #f0eff4;
+  background-color: #1b2021;
+  padding: 0 1em;
+  border-radius: 60px;
+}
+
+.loginbutton:hover {
+  margin: 0;
+  color: #1b2021;
+  background-color: #f0eff4;
+  padding: 0 1em;
+  border-radius: 60px;
+}
+
+/* ========================MAIN========================= */
+
+.titles {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 3em;
+  padding: 2em 0 1em 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.home {
+  width: 100%;
+  height: 100vh;
+}
+
+div.bedrijf {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.bedrijfstart {
+  width: 60%;
+  height: 100vh;
+}
+
+div.bedrijfimg {
+  width: 40%;
+  height: 100%;
+}
+
+.articlebedrijf h1 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 5em;
+}
+
+.articlebedrijf p {
+  font-family: Raleway;
+  font-weight: 400;
+  padding: 1em 0;
+  width: 50%;
+}
+
+article.articlebedrijf {
+  display: flex;
+  flex-direction: column;
+  padding: 20em 8em 3em;
+}
+
+.onze-aanbiedingen {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 8em;
+  letter-spacing: 1px;
+  filter: drop-shadow(1px 1px 20px gray);
+}
+
+main .details a {
+  text-decoration: none;
+  color: #f0eff4;
+  border: 3px solid #f0eff4;
+  background-color: #9a031e;
+  font-family: "lato";
+  padding: 1.5em 3em;
+  border-radius: 60px;
+}
+
+main .details a:hover {
+  text-decoration: none;
+  color: #f0eff4;
+  border: 3px solid #f0eff4;
+  background-color: #06bcc1;
+  font-family: "lato";
+  padding: 1.5em 3em;
+  border-radius: 60px;
+}
+
+.home img {
+  border-left: 0.5em solid #9a031e;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main .home {
+  /* background-color: #d0d8dd; */
+  background-image: linear-gradient(180deg, #d0d8dd, #f0eff4);
+}
+
+main .home img:hover {
+  filter: grayscale(100%);
+}
+
+/* ==================== CARD + container ======================= */
+.container-betaling {
+  width: 50%;
+  display: flex;
+  padding-top: 3em;
+}
+
+.container-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.betalings-opties {
+  height: 100vh;
+  padding: 5em 5em;
+  background-color: #f0eff4;
+}
+
+.betalings-opties div .card {
+  text-align: center;
+  background-color: #f0eff4;
+}
+
+.active1:hover {
+  transform: scale(1.2);
+}
+
+div.card2 {
+  border-radius: 0;
+}
+
+.card-end {
+  background-color: #1b2021;
+  padding: 2em 0;
+  color: #1b2021;
+  border-radius: 0;
+  margin: 0;
+}
+
+span.badge.bg-secondary {
+  background-color: #9a031e !important;
+  /* color: #f0eff4; */
+}
+
+div.card {
+  filter: drop-shadow(1px 1px 20px gray);
+  margin: 5em 2em;
+  border: none;
+  height: 410px;
+}
+
+h5.card-title {
+  margin-bottom: 0;
+}
+
+.card-title {
+  background-color: #1b2021;
+  color: #f0eff4;
+  text-align: center;
+  padding: 1em 2em;
+}
+
+.card-subtitle {
+  background-color: #d0d8dd;
+  padding: 1em 1em;
+  color: #1b2021;
+}
+
+.card-text {
+  background-color: #f0eff4;
+  padding: 1em 1em;
+  color: #1b2021;
+}
+
+.card-link {
+  background-color: #f0eff4;
+}
+
+a.card-link {
+  text-decoration: none;
+  color: #9a031e;
+  border: 3px solid #9a031e;
+  border-radius: 30px;
+  padding: 0.5em 1.5em;
+  background-color: #f0eff4;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 1em 1em;
+}
+
+a.card-link:hover {
+  /* color: #06bcc1;
+  border: 3px solid #06bcc1; */
+  color: #f0eff4;
+  border: 3px solid #9a031e;
+  background-color: #9a031e;
+}
+
+/* =======================extra info kolom rechts==================== */
+.container-info {
+  padding: 3em 5em;
+  width: 80%;
+}
+
+div.background-info {
+  max-height: 100%;
+  padding: 3em 1em;
+  background-color: #f0eff4;
+  border-radius: 60px;
+  box-shadow: 1px 4px 10px gray;
+  text-align: center;
+}
+
+#fas2 {
+  padding-bottom: 1em;
+  color: #9a031e;
+}
+
+.container-info h4 {
+  padding-bottom: 1em;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.container-info p {
+  font-family: Raleway;
+  font-weight: 400;
+  padding: 0 1em 1em 1em;
+}
+
+.container-info a {
+  text-decoration: none;
+  color: #9a031e;
+  border: 3px solid #9a031e;
+  background-color: #f0eff4;
+  padding: 0.5em 1.5em;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.split-info {
+  display: flex;
+}
+
+.align-info {
+  display: flex;
+  flex-direction: column;
+  width: 33.3%;
+}
+
+.container-info a:hover {
+  color: #f0eff4;
+  border: 3px solid #9a031e;
+  background-color: #9a031e;
+}
+
+.foto-info {
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 70%;
+  object-fit: cover;
+  border: 3px solid #9a031e;
+}
+
+.foto-info:hover {
+  filter: grayscale(100%);
+}
+
+/* ================================ section over ons ========================== */
+
+section.over-ons {
+  /* background-image: linear-gradient(180deg, #d0d8dd, #f0eff4); */
+  /* height: 200vh; */
+  color: #1b2021;
+  background-color: #d0d8dd;
+}
+
+.card5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  background-color: #d0d8dd;
+  font: 400 100%/1.4 "Raleway", Arial, sans-serif;
+  text-align: center;
+  height: 100vh;
+}
+
+.card5 h3 {
+  margin-bottom: 0.5rem;
+  font: 500 2em/1.4 "Roboto", Arial, sans-serif;
+  border-bottom: solid 1px #111;
+  display: inline-block;
+}
+
+.card5 span {
+  font-size: 16px;
+  color: #9a031e;
+  font-weight: 700;
+}
+
+.card5 h4 {
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.card5 p {
+  text-align: left;
+}
+
+.card5 img {
+  width: 100%;
+  border: 0.5em solid #9a031e;
+  /* box-shadow: 1px 4px 10px gray; */
+  filter: drop-shadow(1px 1px 20px gray);
+  border-radius: 30px;
+}
+
+.card5 img:hover {
+  filter: grayscale(100%);
+}
+
+.card5>div {
+  padding: 4em 2em;
+}
+
+.card5:nth-child(even) img {
+  order: 2;
+}
+
+/* ================================= section FAQ =================== */
+
+section.faq-section {
+  background-color: #f0eff4;
+  height: 100vh;
+  color: #1b2021;
+}
+
+section.faq-section h2 {
+  font-family: Lato;
+  font-weight: 700;
+}
+
+section.faq-section h3 {
+  color: #1b2021;
+  font-family: Lato;
+  font-weight: 500;
+  padding: 0.5em 0em 0.5em 5em;
+}
+
+section.faq-section p {
+  padding: 0.5em 0em 0.5em 8.5em;
+  color: #1b2021;
+  font-family: Raleway;
+  font-weight: 400;
+  width: 80%;
+}
+
+section.faq-section a {
+  text-decoration: none;
+  color: #f0eff4;
+  border: 3px solid #f0eff4;
+  background-color: #9a031e;
+  padding: 0.5em 1.5em;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+section.faq-section a:hover {
+  color: #f0eff4;
+  border: 3px solid #f0eff4;
+  background-color: #06bcc1;
+}
+
+section.faq-section .meer-button {
+  padding: 3em 0em 0em 8.5em;
+}
+
+/* ====================FOOTER=============== */
+.lokatie {
+  border: none;
+  max-height: 200px;
+  width: 100%;
+}
+
+footer {
+  height: 250px;
+  display: flex;
+  font-family: Raleway;
+}
+
+/* LEFT PART */
+
+.left {
+  width: 25%;
+  background-color: #f0eff4;
+  /* position: relative; */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.logo-div {
+  width: 100%;
+  position: relative;
+  height: 30%;
+}
+
+.logo-div img {
+  /* position: absolute; */
+  width: 200px;
+  display: inline-block;
+  margin: 2px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactgegevens {
+  text-align: center;
+}
+
+.fa {
+  color: #f0eff4;
+  background-color: #9a031e;
+  font-size: 20px;
+  padding: 0;
+  text-decoration: none;
+  /* margin: 5px 5px; */
+  border-radius: 25px;
+}
+
+a.fa {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+
+.socialMedia-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+}
+
+.socialMedia-buttons a {
+  background: #1b2021 none repeat scroll 0 0;
+  border-radius: 50%;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 13px 0;
+  margin: 15px 0;
+  float: none;
+}
+
+a.fa:hover {
+  background-color: #f0eff4;
+  color: #9a031e;
+  border: 2px solid #9a031e;
+}
+
+/* social media buttons */
+
+.right {
+  width: 75%;
+  text-align: center;
+  background-color: #9a031e;
+  color: #f0eff4;
+  display: flex;
+  flex-direction: row;
+}
+
+small {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0.5em 0;
+}
+
+.inschrijf-button {
+  text-decoration: none;
+  color: #9a031e;
+  border: 1px solid #9a031e;
+  background-color: #f0eff4;
+  font-family: "lato";
+  font-weight: 700;
+  padding: 0.5em 1em;
+  border-radius: 60px;
+  text-transform: uppercase;
+}
+
+.inschrijf-button:hover {
+  color: #f0eff4;
+  border: 1px solid #9a031e;
+  background-color: #06bcc1;
+}
+
+/* nav footer right */
+
+.navi-fter ul li {
+  list-style: none;
+  padding-bottom: 0.5em;
+}
+
+.navi-fter ul {
+  padding: 0;
+}
+
+.navi-fter a {
+  text-decoration: none;
+  color: #f0eff4;
+}
+
+.navi-fter a:hover {
+  background-color: #06bcc1;
+  color: #f0eff4;
+  padding: 0.25em 1em;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+div.right-nws {
+  width: 45%;
+  padding: 3em 0;
+  border-left: 2px solid #f0eff4;
+  /* border-right: 1px solid #f0eff4; */
+}
+
+.right-nws p {
+  margin: 0 auto;
+  width: 35%;
+}
+
+div.right-link {
+  background-color: #1b2021;
+  width: 30%;
+  padding: 4em 0;
+}
+
+/* ================================= trajecten.html =================== */
+div.trajecten {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.trajectenstart {
+  width: 60%;
+  height: 100vh;
+}
+
+div.trajectenimg {
+  width: 40%;
+  height: 100%;
+}
+
+.div-trajecten {
+  display: inline-block;
+  margin: 0 5rem;
+}
+
+.div-trajecten h1 {
+  padding: 2em 0 0.5em 0;
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 3em;
+  text-align: center;
+}
+
+.div-trajecten h2 {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 2em;
+  margin: 1em 0 0 0;
+}
+
+.div-trajecten p {
+  font-family: Raleway;
+  font-weight: 400;
+  width: 80%;
+  padding: 1em 0;
+}
+
+/* .extra {
+  height: 100vh;
+  background-color: black;
+} */
+
+.div-trajecten a {
+  text-decoration: none;
+  color: #9a031e;
+  border: 2px solid #9a031e;
+  background-color: #f0eff4;
+  font-family: "lato";
+  font-weight: 700;
+  padding: 0.25em 0.75em;
+  border-radius: 60px;
+  text-transform: uppercase;
+}
+
+.div-trajecten a:hover {
+  color: #f0eff4;
+  border: 1px solid #9a031e;
+  background-color: #9a031e;
+}
+
+.trajecten-home img {
+  border-left: 0.5em solid #9a031e;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+main .trajecten-home {
+  /* background-color: #d0d8dd; */
+  background-image: linear-gradient(180deg, #d0d8dd, #f0eff4);
+}
+
+main .trajecten-home img:hover {
+  filter: grayscale(100%);
+}
+
+/* ================ TRAJECT 1 - TRAJECT1CURCUS - learningSnack1.html */
+.traject {
+  padding: 5em 8em;
+  height: 100%;
+  background-color: #f0eff4;
+}
+
+.traject h3 {
+  font-family: Lato;
+  font-weight: 700;
+  padding: 1em 1em;
+  font-size: 2em;
+  color: #1b2021;
+}
+
+.traject nav ul li {
+  background-color: #f0eff4;
+  padding: 2em 1em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.shadow-traject {
+  padding: 2em;
+  filter: drop-shadow(1px 1px 20px gray);
+}
+
+.shadow-traject li:hover {
+  background-color: #9a031e;
+  transform: scale(1.1);
+}
+
+/* .shadow-traject:hover {
+  transform: scale(1.1);
+} */
+
+.traject nav a {
+  letter-spacing: 1px;
+  font-size: 21px;
+  font-weight: 400;
+  font-family: Raleway;
+  text-decoration: none;
+  color: #1b2021;
+  border-bottom: 1px solid #1b2021;
+}
+
+.traject nav a:hover {
+  color: #f0eff4;
+}
+
+.traject nav ul {
+  list-style: none;
+}
+
+/* ============= learning snacks ================== */
+
+.learning-snack {
+  display: flex;
+  height: 100vh;
+  background-color: #d0d8dd;
+  padding: 3em 0em 2em 4em;
+}
+
+.learning-snack h1 {
+  font-family: lato;
+  font-weight: 700;
+}
+
+.learning-snack p {
+  font-family: Raleway;
+  font-weight: 400;
+}
+
+.info-learningsnack {
+  width: 80%;
+}
+
+.next-learninsnack {
+  width: 20%;
+
+}
+
+.next-learninsnack ul {
+  list-style: none;
+}
+
+.next-learninsnack nav ul li {
+  background-color: #f0eff4;
+  padding: 2em 1em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.next-learninsnack nav a {
+  letter-spacing: 1px;
+  font-size: 21px;
+  font-weight: 400;
+  font-family: Raleway;
+  text-decoration: none;
+  color: #1b2021;
+  border-bottom: 1px solid #1b2021;
+}
+
+.next-learninsnack nav a:hover {
+  color: #f0eff4;
+}
+
+.next-learninsnack nav ul {
+  list-style: none;
+}
+
+
+/* .next-learninsnack ul li {
+  padding-top: 1em;
+  margin-top: 1em;
+}
+
+.next-learninsnack ul a:hover {
+  color: #9a031e;
+  border-bottom: 1px solid #9a031e;
+} */
+
+.info-learningsnack img {
+  padding-top: 5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
