@@ -805,15 +805,33 @@ main .trajecten-home img:hover {
   list-style: none;
 }
 
-.next-learninsnack ul a {
+.next-learninsnack nav ul li {
+  background-color: #f0eff4;
+  padding: 2em 1em;
+  text-decoration: none;
+  text-align: center;
+}
+
+.next-learninsnack nav a {
+  letter-spacing: 1px;
+  font-size: 21px;
+  font-weight: 400;
+  font-family: Raleway;
   text-decoration: none;
   color: #1b2021;
-  font-weight: 400;
-  font-style: Raleway;
   border-bottom: 1px solid #1b2021;
 }
 
-.next-learninsnack ul li {
+.next-learninsnack nav a:hover {
+  color: #f0eff4;
+}
+
+.next-learninsnack nav ul {
+  list-style: none;
+}
+
+
+/* .next-learninsnack ul li {
   padding-top: 1em;
   margin-top: 1em;
 }
@@ -821,7 +839,7 @@ main .trajecten-home img:hover {
 .next-learninsnack ul a:hover {
   color: #9a031e;
   border-bottom: 1px solid #9a031e;
-}
+} */
 
 .info-learningsnack img {
   padding-top: 5em;
