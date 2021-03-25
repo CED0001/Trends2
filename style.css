@@ -742,7 +742,7 @@ main .trajecten-home img:hover {
 }
 
 .shadow-traject {
-  padding: 2em;
+  padding: 1em 2em; 
   filter: drop-shadow(1px 1px 20px gray);
 }
 
@@ -847,4 +847,56 @@ main .trajecten-home img:hover {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* Signing pagina */
+.form-signin{
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  background-color:#d0d8dd ;
+  padding-top: 5em;
+}
+.form-signin form{
+  position: relative;
+  
+  
+}
+.account-btn{
+  font-family: Lato;
+  font-weight: 900;
+  margin: 0;
+  position: absolute;
+  left: 35%;
+  justify-items: center;
+  color: #f0eff4;
+  border: 3px solid #f0eff4;
+  background-color: #9a031e;
+  font-family: "lato";
+  padding: 1em 3em;
+  border-radius: 60px;
+}
+.account-btn:hover{
+  color: #f0eff4;
+  border: 3px solid #f0eff4;
+  background-color: #06bcc1;
+  font-family: "lato";
+  padding: 1em 3em;
+  border-radius: 60px;
+}
+.create-shadow{
+  border-radius: 30px;
+  box-shadow: 5px 10px 8px 10px #88888873;
+}
+.create-btn{
+  padding: 1em 1em 2em;
+  background-color: #1B2021;
+  color: #F0EFF4;
+  border-radius: 30px;
+}
+.form-signin label{
+  padding-top: 1em;
+}
+.btn-div{
+  padding-top: 1em;
 }
