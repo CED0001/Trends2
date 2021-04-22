@@ -415,7 +415,7 @@ section.over-ons {
   filter: grayscale(100%);
 }
 
-.card5>div {
+.card5 > div {
   padding: 4em 2em;
 }
 
@@ -742,7 +742,7 @@ main .trajecten-home img:hover {
 }
 
 .shadow-traject {
-  padding: 1em 2em; 
+  padding: 1em 2em;
   filter: drop-shadow(1px 1px 20px gray);
 }
 
@@ -798,7 +798,6 @@ main .trajecten-home img:hover {
 
 .next-learninsnack {
   width: 20%;
-
 }
 
 .next-learninsnack ul {
@@ -830,7 +829,6 @@ main .trajecten-home img:hover {
   list-style: none;
 }
 
-
 /* .next-learninsnack ul li {
   padding-top: 1em;
   margin-top: 1em;
@@ -849,20 +847,18 @@ main .trajecten-home img:hover {
   width: 50%;
 }
 
-/* Signing pagina */
-.form-signin{
+/* Signing pagina  -- Create*/
+.form-signin {
   display: flex;
   justify-content: center;
-  height: 80vh;
-  background-color:#d0d8dd ;
+  height: 125vh;
+  background-color: #d0d8dd;
   padding-top: 5em;
 }
-.form-signin form{
+.form-signin form {
   position: relative;
-  
-  
 }
-.account-btn{
+.account-btn {
   font-family: Lato;
   font-weight: 900;
   margin: 0;
@@ -876,7 +872,7 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
-.account-btn:hover{
+.account-btn:hover {
   color: #f0eff4;
   border: 3px solid #f0eff4;
   background-color: #06bcc1;
@@ -884,25 +880,30 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
-.create-shadow{
+.create-shadow {
   border-radius: 30px;
   box-shadow: 5px 10px 8px 10px #88888873;
 }
-.create-btn{
+.create-btn {
   padding: 1em 1em 2em;
-  background-color: #1B2021;
-  color: #F0EFF4;
+  background-color: #1b2021;
+  color: #f0eff4;
   border-radius: 30px;
 }
-.form-signin label{
+.form-signin label {
   padding-top: 1em;
 }
-.btn-div{
+.btn-div {
   padding-top: 1em;
+}
+.form-signin h3 {
+  padding-top: 1em;
+  font-family: Lato;
+  font-weight: 700;
 }
 
 /* Log in pagina */
-.sign-in{
+.sign-in {
   font-family: Lato;
   font-weight: 900;
   margin: 0;
@@ -916,7 +917,7 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
-.sign-in:hover{
+.sign-in:hover {
   color: #f0eff4;
   border: 3px solid #f0eff4;
   background-color: #06bcc1;
@@ -924,9 +925,9 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
-.form-signin p a{
+.form-signin p a {
   color: #1b2021;
 }
-.form-signin h1{
+.form-signin h1 {
   text-align: center;
 }
