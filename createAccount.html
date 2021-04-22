@@ -43,43 +43,63 @@
       <h1 class="h3 mb-3 fw-normal">
         Vul de gegevens in om een account aan te maken
       </h1>
-      <div class="create-shadow">
-        <div class="create-btn">
-          <label for="inputEmail" class="naam">Naam</label>
-          <input type="text" id="inputName" class="form-control" placeholder="Business" required autofocus />
+      <label for="inputEmail" class="">Naam</label>
+      <!--required autofocus bij inputs zetten-->
+      <input type="text" id="inputNaam" class="form-control" placeholder="Jeff" name="naam" value=""/>
 
-          <label for="inputEmail" class="achternaam">Achternaam</label>
-          <input type="text" id="inputName" class="form-control" placeholder="Skills" required autofocus />
+      <label for="inputEmail" class="">Achternaam</label>
+      <input type="text" id="inputAchterNaam" class="form-control" placeholder="Jefferson" name="achternaam" value="" />
 
-          <label for="inputEmail" class="e-mail">Email addres</label>
-          <input type="email" id="inputEmail" class="form-control" placeholder="business.skills@skillsmail.com" required
-            autofocus />
+      <label for="inputEmail" class="">Email addres</label>
+      <input type="email" id="inputEmail" class="form-control" placeholder="jeff.jefferson@jeffmail.com" name="email" value="" />
+      
+      <label type="inputDate" class="">Geboortedatum</label>
+      <input type="date" id="inputGeboorteDatum" class="form-control" placeholder="Jefferson" name="geboortedatum" value="" />
 
-          <label for="inutDate">Geboortedatum</label>
-          <input type="date" class="form-control">
+      <label type="inputEmail" class="">Telefoonnummer</label>
+      <input type="number" id="inputTelefoonnummer" class="form-control" class="form-control" placeholder="1234567890" name="telefoon" value=""> </input>
+      <br>
+      
+      <label type="inputEmail"><b>Adres</b></label> <br>
+      
+      <label for="input">Straat</label>
+      <input type="text" id="inputStraat" class="form-control" placeholder="sint-Jefferson straat" name="straat" value="">
+      
+      <label for="input">Straat nummer</label>
+      <input type="number" id="inputStraatNummer" class="form-control" placeholder="2" name="straatNummer" value="" > </input>
+      
+      <label for="input">stad</label>
+      <input type="text" id="inputStad" class="form-control" placeholder="Jeff City" name="stad" value="" >
+      
+      <label type="inputEmail" class="">Postcode</label>
+      <input type="number" id="inputPostcode" class="form-control" placeholder="1000" name="postcode" value=""></input>
 
-          <label for="inputEmail" class="wachtwoord">Wachtwoord</label>
-          <input type="password" id="inputPassword" class="form-control" placeholder="" required />
 
-          <label for="inputEmail" class="c-wachtwoord">Confirmeer wachtwoord</label>
-          <input type="password" id="confirmPassword" class="form-control" placeholder="" required />
 
-          <!-- <div class="checkbox mb-3">
+      <br> <br>
+      <label for="inputEmail" class="">Wachtwoord</label>
+      <input type="password" id="inputPassword" class="form-control" placeholder="" name="wachtwoord" value=""/>
+
+      <label for="inputEmail" class="">Confirmeer wachtwoord</label>
+      <input type="password" id="inputConfirmPassword" class="form-control" placeholder="" name="confirmWachtwoord" value="" />
+      <hr>
+      <!-- <div class="checkbox mb-3">
                 <label>
                     <input type="checkbox" value="remember-me"> Remember me
                 </label>
             </div> -->
-        </div>
-      </div>
-      <div class="btn-div">
-        <button class="account-btn" type="">
-          CREATE ACCOUNT
-        </button>
-      </div>
+            <div class="btn-div"> 
+              <button id="btnCreateAccount" class="w-100 btn btn-lg btn-primary account-btn" type="submit" >
+              <!-- type="submit" -->
+              Create Account
+            </button>
+           </div>    
+      
       <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p> -->
     </form>
     <!--  -->
   </main>
+  
   <!---------------------------- Footer ------------------------------>
   <footer>
     <div class="left">
@@ -127,7 +147,7 @@
       <small>&#169; Copyright, 2021 - Business Skills</small>
     </div>
   </footer>
-  <script src="../js.js"></script>
+  <script src="createAccount.js" defer></script>
 </body>
 
 </html>
