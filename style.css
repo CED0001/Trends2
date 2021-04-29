@@ -966,6 +966,10 @@ main .trajecten-home img:hover {
     padding-top: 20em;
   }
 
+  h2.titles {
+    padding-top: 13em;
+  }
+
   div.trajectenstart {
     width: 100%;
     height: 100%;
@@ -976,16 +980,10 @@ main .trajecten-home img:hover {
     height: 100%;
   }
 
-  .div-trajecten {
-    text-align: center;
-    margin: 0 5rem 5rem;
-    padding: 0 1em;
-  }
-
   .div-trajecten p {
     width: 100%;
     text-align: justify;
-    padding: 0 1.5em;
+    /* padding: 0 1.5em; */
   }
 
   .trajecten-home img {
@@ -1130,4 +1128,10 @@ main .trajecten-home img:hover {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+/* ======================== contactpage ====================== */
+
+.contactsection {
+  height: 100vh;
 }
