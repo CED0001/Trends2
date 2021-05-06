@@ -1,6 +1,8 @@
 //verbetering voor in de toekomst: ww wordt pas gecontrolleerd in de user, doe dit al meteen na het ophalen van de data
 
-window.onload = function () {
+
+
+$(function () {
   console.log(`Hello World`);
   if (window.jQuery) {
     // jQuery is loaded
@@ -24,9 +26,9 @@ window.onload = function () {
     // console.log($(this).serializeArray());
     console.log(form);
     let user = new User(form);
-    alert(`Confirmeer uw email om uw account creatie af te ronden.`);
+    // alert(`Confirmeer uw email om uw account creatie af te ronden.`);
   });
-};
+});
 
 class User {
   constructor(array) {
@@ -47,6 +49,12 @@ class User {
   }
   init() {
     console.log(`user init initiated`);
+    if (this.data[9].value === this.data[10].value) {
+      this.wachtwoord = this.data[9].value;
+    } else {
+      alert("Wachtwoorden komen niet overeen of ze zijn te kort, probeer opnieuw.");
+      return;
+    }
     this.naam = this.data[0].value;
     this.achternaam = this.data[1].value;
     this.email = this.data[2].value;
@@ -56,21 +64,15 @@ class User {
     this.adresNummer = this.data[6].value;
     this.adresStad = this.data[7].value;
     this.adresPostcode = this.data[8].value;
-    if (
-      this.data[9].value === this.data[10].value &&
-      this.data[9].length >= 8 &&
-      this.data[10].length >= 8
-    ) {
-      this.wachtwoord = this.data[9].value;
-    } else {
-      alert(
-        "Wachtwoorden komen niet overeen of ze zijn te kort, probeer opnieuw."
-      );
+    console.log(this.data[9]);
+    console.log(this.data[10]);
+
     }
-  }
-  monitor() {
-    // console.log(this);
+    monitor() {
+    console.log("User class - Monitor");
     console.log(`naam:${this.naam} achternaam:${this.achternaam} email:${this.email} geboortedatum:${this.geboortedatum} telefoon:${this.telefoonnummer}
         straat:${this.adresStraat} adresnummer:${this.adresNummer} stad:${this.adresStad} postcode${this.adresPostcode} ww:${this.wachtwoord}`);
   }
 }
+  
+
