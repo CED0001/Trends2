@@ -257,7 +257,7 @@ main .home img:hover {
   article.articlebedrijf {
     display: inline-block;
     width: 100%;
-    padding: 25em 3em 2em;
+    padding: 5em 3em 2em;
   }
 
   .articlebedrijf p {
@@ -267,6 +267,7 @@ main .home img:hover {
 
   div.bedrijfstart {
     width: 100%;
+    height: 100%;
   }
 
   .onze-aanbiedingen {
@@ -414,7 +415,7 @@ a.card-link:hover {
   .container-betaling {
     width: 100%;
     display: inline-block;
-    padding: 5em;
+    padding: 5.75em;
   }
 
   .active1:hover {
@@ -833,6 +834,7 @@ div.right-nws {
 .right-nws p {
   margin: 0 auto;
   width: 35%;
+  padding: 1em;
 }
 
 div.right-link {
@@ -959,15 +961,7 @@ main .trajecten-home img:hover {
 
 @media only screen and (max-width: 600px) {
   div.trajecten {
-    /* width: 100%;
-    display: flex;
-    justify-content: center; */
     flex-direction: column;
-    padding-top: 20em;
-  }
-
-  h2.titles {
-    padding-top: 13em;
   }
 
   div.trajectenstart {
@@ -1050,6 +1044,20 @@ main .trajecten-home img:hover {
 
 .traject nav ul {
   list-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+  section.traject {
+    padding: 0;
+  }
+
+  .traject nav a {
+    font-size: 15px;
+  }
+
+  .traject h3 {
+    text-align: center;
+  }
 }
 
 /* ============= learning snacks (personal branding) ================== */
@@ -1138,9 +1146,123 @@ main .trajecten-home img:hover {
   width: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+  .learning-snack {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .learning-snack h1 {
+    text-align: center;
+  }
+
+  .learning-snack p {
+    padding: 0.5em 2em;
+  }
+
+  .info-learningsnack {
+    width: 100%;
+    background-color: #f0eff4;
+  }
+
+  .info-learningsnack img {
+    width: 100%;
+  }
+
+  .next-learningsnack {
+    width: 100%;
+    background-color: #d0d8dd;
+  }
+
+  .next-learningsnack ul {
+    width: 100%;
+  }
+
+  section.learning-snack {
+    padding: 0;
+  }
+
+  .next-learningsnack nav a {
+    font-size: 15px;
+  }
+
+  .shadow-learningsnack {
+    padding: 1em;
+    text-align: center;
+  }
+
+  .shadow-learningsnack li:hover {
+    border-left: none;
+    transform: scale(1.1);
+  }
+
+  .shadow-learningsnack ul {
+    padding: 0;
+  }
+}
+
+
 
 
 /* ======================== contactpage ====================== */
+
+
+.contactgegevensBedrijf {
+  margin: 0 auto;
+  height: 100%;
+  width: 50%;
+  background-color: #f0eff418;
+  box-shadow: 1px 4px 10px gray;
+  color: #f0eff4;
+}
+
+.floatingTextarea2 {
+  color: #1b2021;
+}
+
+.form-label {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  ;
+  background-color: #9a031e;
+}
+
+.contact-bg {
+  padding: 5em;
+  background: #F3FAC0 url("./images/contact.jpg") no-repeat center top/cover fixed;
+}
+
+.contactgegevensUren {
+  padding: 3em 0 0 0;
+  display: flex;
+  width: 100%;
+}
+
+form.row {
+  /* background-color: #9a031e; */
+  padding: 1em;
+}
+
+.contactimg {
+  width: 100%;
+  height: 30vh;
+  object-fit: contain;
+  /* object-position: 8em 8em 55%; */
+}
+
+/* ------------------Signing pagina --------------- */
+.form-signin {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  background-color: #d0d8dd;
+  padding-top: 5em;
+}
+
+.form-signin form {
+  position: relative;
+}
 
 .contactsection {
   height: 100vh;
@@ -1160,6 +1282,7 @@ main .trajecten-home img:hover {
 .form-signin form {
   position: relative;
 }
+
 .account-btn {
   font-family: Lato;
   font-weight: 900;
@@ -1174,6 +1297,7 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
+
 .account-btn:hover {
   color: #f0eff4;
   border: 3px solid #f0eff4;
@@ -1182,16 +1306,24 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
+
 .create-shadow {
   border-radius: 30px;
   box-shadow: 5px 10px 8px 10px #88888873;
 }
+
 .create-btn {
   padding: 1em 1em 2em;
   background-color: #1b2021;
   color: #f0eff4;
   border-radius: 30px;
 }
+
+.form-signin label {
+  padding-top: 1em;
+}
+
+.btn-div {
 .form-signin label {
   padding-top: 1em;
 }
@@ -1203,6 +1335,9 @@ main .trajecten-home img:hover {
   font-family: Lato;
   font-weight: 700;
 }
+
+
+/* --------------Log in pagina--------------- */
 
 /* Log in pagina */
 .sign-in {
@@ -1219,6 +1354,7 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
+
 .sign-in:hover {
   color: #f0eff4;
   border: 3px solid #f0eff4;
@@ -1227,9 +1363,17 @@ main .trajecten-home img:hover {
   padding: 1em 3em;
   border-radius: 60px;
 }
+
+
 .form-signin p a {
   color: #1b2021;
 }
+
+
+.form-signin p a {
+  color: #1b2021;
+}
+
 .form-signin h1 {
   text-align: center;
 
