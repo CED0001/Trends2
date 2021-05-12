@@ -576,7 +576,7 @@ section.over-ons {
   filter: grayscale(100%);
 }
 
-.card5>div {
+.card5 > div {
   padding: 4em 2em;
 }
 
@@ -1087,8 +1087,10 @@ main .trajecten-home img:hover {
 
 .next-learningsnack {
   width: 20%;
+
   height: 100%;
   background-color: #f0eff4;
+
 
 }
 
@@ -1121,9 +1123,15 @@ main .trajecten-home img:hover {
   filter: drop-shadow(1px 1px 20px gray);
 }
 
+
 .shadow-learningsnack li:hover {
   border-left: 2px solid #9e9e9e;
   transform: scale(1.1);
+
+/* .next-learninsnack ul li { //ahmad
+  padding-top: 1em;
+  margin-top: 1em; */
+
 }
 
 .next-learningsnack nav ul {
@@ -1196,7 +1204,9 @@ main .trajecten-home img:hover {
 
 
 
+
 /* ======================== contactpage ====================== */
+
 
 .contactgegevensBedrijf {
   margin: 0 auto;
@@ -1254,6 +1264,25 @@ form.row {
   position: relative;
 }
 
+.contactsection {
+  height: 100vh;
+
+/* Signing pagina */
+.form-signin{
+
+/* Signing pagina  -- Create*/
+.form-signin {
+
+  display: flex;
+  justify-content: center;
+  height: 125vh;
+  background-color: #d0d8dd;
+  padding-top: 5em;
+}
+.form-signin form {
+  position: relative;
+}
+
 .account-btn {
   font-family: Lato;
   font-weight: 900;
@@ -1285,8 +1314,8 @@ form.row {
 
 .create-btn {
   padding: 1em 1em 2em;
-  background-color: #1B2021;
-  color: #F0EFF4;
+  background-color: #1b2021;
+  color: #f0eff4;
   border-radius: 30px;
 }
 
@@ -1295,10 +1324,22 @@ form.row {
 }
 
 .btn-div {
+.form-signin label {
   padding-top: 1em;
 }
+.btn-div {
+  padding-top: 1em;
+}
+.form-signin h3 {
+  padding-top: 1em;
+  font-family: Lato;
+  font-weight: 700;
+}
+
 
 /* --------------Log in pagina--------------- */
+
+/* Log in pagina */
 .sign-in {
   font-family: Lato;
   font-weight: 900;
@@ -1323,6 +1364,12 @@ form.row {
   border-radius: 60px;
 }
 
+
+.form-signin p a {
+  color: #1b2021;
+}
+
+
 .form-signin p a {
   color: #1b2021;
 }
@@ -1330,4 +1377,6 @@ form.row {
 .form-signin h1 {
   text-align: center;
 
+
 }
+
